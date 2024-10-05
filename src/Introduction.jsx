@@ -21,11 +21,13 @@ export default function Introduction()
                         <h1 className="font-body text-3xl font-bold text-center">Enkeljon Gjeta</h1>
                         <h2 className="text-center">Code Maestro & Tech Explorer</h2>
                         <p>
-                            🚀 Second-year software engineering dynamo with a toolkit that packs a punch:
-                            C, JavaScript, Python, C#, React? Check!
-                            IoT whiz kid? You bet! (Arduino & Raspberry Pi are my playground)
-                            Cybersecurity buff by day, frontend artist by night
-
+                            🚀 Second-year software engineering dynamo with a toolkit that packs a punch:</p>
+                            <ul className="list-disc mx-auto ml-8">
+                                <li>C, JavaScript, Python, C#, React? Check!</li>
+                                <li>IoT whiz kid? You bet! (Arduino & Raspberry Pi are my playground)</li>
+                                <li>Cybersecurity buff by day, frontend artist by night</li>
+                            </ul>
+                            <p>
                             🏆 Hackathon warrior, RoboTech mentor, and full-stack adventurer
                             From bits to bots, I'm not just coding the future – I'm engineering it. Ready to turn your next big idea into digital reality? Let's connect and create some tech magic! 💻✨
                         </p>
