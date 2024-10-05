@@ -53,8 +53,14 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
-  	}
+  		},
+		fontFamily: {
+			body: [ 'Tanker-Regular' ]
+		}
+  	},
+	  fontFamily: {
+		"Tanker": "C:\Users\joni\Desktop\media player\portfolio\public\Tanker-Regular.otf"
+	  }
   },
   plugins: [require("tailwindcss-animate")],
 }

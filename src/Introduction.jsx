@@ -18,8 +18,16 @@ export default function Introduction()
                     <div className="bg-green-500 rounded-full h-40 w-40 mx-auto my-auto">
                     </div>
                     <div className="mx-10 my-10">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit earum, vel debitis impedit similique adipisci quasi suscipit dolores eligendi unde quaerat! Ab assumenda deserunt minima atque et corrupti libero.lo
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias et esse facilis ullam voluptatibus architecto illo impedit similique! Vitae odio perspiciatis et ratione quaerat ipsam consequatur earum. Tempore, iusto voluptatibus.
+                        <h1 className="font-body text-3xl font-bold">Enkeljon Gjeta</h1>
+                    : Code Maestro & Tech Explorer
+                    🚀 Second-year software engineering dynamo with a toolkit that packs a punch:
+
+                    C, JavaScript, Python, C#, React? Check!
+                    IoT whiz kid? You bet! (Arduino & Raspberry Pi are my playground)
+                    Cybersecurity buff by day, frontend artist by night
+
+                    🏆 Hackathon warrior, RoboTech mentor, and full-stack adventurer
+                    From bits to bots, I'm not just coding the future – I'm engineering it. Ready to turn your next big idea into digital reality? Let's connect and create some tech magic! 💻✨
                     </div>
                 </div>
 
