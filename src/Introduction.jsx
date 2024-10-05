@@ -15,7 +15,7 @@ export default function Introduction()
         <>
             <div className=" mx-auto my-auto px-2 py-10">
                 <div className="bg-white py-5">
-                    <div className="bg-yellow-300 rounded-full h-40 w-40 mx-auto my-auto">
+                    <div className="bg-green-500 rounded-full h-40 w-40 mx-auto my-auto">
                     </div>
                     <div className="mx-10 my-10">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias fugit earum, vel debitis impedit similique adipisci quasi suscipit dolores eligendi unde quaerat! Ab assumenda deserunt minima atque et corrupti libero.lo
