@@ -4,7 +4,7 @@ export default function Slide()
 {
     return(
         <>
-            <div className="bg-red-400 px-10 py-10 h-[32rem]">
+            <div className="bg-red-400 px-10 py-10 h-[36rem] relative">
                 <Slides/>
     
                 <div class="controls flex justify-between mt-10 px-20">
