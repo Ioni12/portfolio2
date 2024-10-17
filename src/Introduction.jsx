@@ -1,5 +1,6 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import { useEffect } from "react";
 
 
 gsap.registerPlugin(useGSAP);
@@ -8,9 +9,9 @@ gsap.registerPlugin(useGSAP);
 export default function Introduction()
 {
 
-    useGSAP(() => {
+    useEffect(() => {
         gsap.from(".bg-yellow-300", {y: 500,  width: 20, opacity: 0.2})
-    })
+    }, [])
     return(
         <>
             <div className=" mx-auto my-auto px-2 py-10">

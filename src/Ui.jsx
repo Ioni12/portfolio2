@@ -17,7 +17,7 @@ export default function Ui({an, children})
         const boxes = containerRef.current.querySelectorAll(".box");
   
         let count = 0; 
-        gsap.set(boxes, { xPercent: 100 });
+        gsap.set(boxes, { xPercent: 100, position: "absolute", top: 0, left: 0 });
         gsap.set(boxes[0], { xPercent: 0 });
   
         function next() {
@@ -46,7 +46,7 @@ export default function Ui({an, children})
 
     return(
         <>
-            <div ref={containerRef} className={an + " shadow-fuchsia-300 shadow-md rounded-lg h-full w-full overflow-hidden"}>
+            <div ref={containerRef} className={an + " shadow-fuchsia-300 shadow-md rounded-lg h-full w-full overflow-hidden relative"}>
                 {children}
             </div>
         </>
