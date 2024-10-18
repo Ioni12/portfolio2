@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 const ScratchCard = ({ content = "You Won!", width = 300, height = 150 }) => {
   const canvasRef = useRef(null);
   const [isDrawing, setIsDrawing] = useState(false);
-  const [scratchSize, setScratchSize] = useState(20);
+  const [scratchSize, setScratchSize] = useState(30);
   const contextRef = useRef(null);
   const totalPixelsRef = useRef(width * height);
 
