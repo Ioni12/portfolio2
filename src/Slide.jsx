@@ -8,8 +8,8 @@ export default function Slide()
                 <Slides/>
     
                 <div class="controls flex justify-between mt-10 px-20">
-                    <button id="prevButton">Prev</button>
-                    <button id="nextButton">Next</button>
+                    <button id="prevButton" className="-mt-6">Prev</button>
+                    <button id="nextButton" className="-mt-6">Next</button>
                 </div>
             </div>
              
