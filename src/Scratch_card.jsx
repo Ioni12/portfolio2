@@ -93,19 +93,7 @@ const ScratchCard = ({ content = "You Won!", width = 300, height = 150 }) => {
         />
       </div>
       
-      <div className="flex items-center gap-2">
-        <label htmlFor="scratchSize">Scratch Size:</label>
-        <input
-          type="range"
-          id="scratchSize"
-          min="5"
-          max="50"
-          value={scratchSize}
-          onChange={handleSizeChange}
-          className="w-32"
-        />
-        <span>{scratchSize}</span>
-      </div>
+      
     </div>
   );
 };

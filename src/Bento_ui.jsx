@@ -6,7 +6,10 @@ export default function Bento_ui()
         <>
             <div className="grid grid-cols-8 grid-rows-8 gap-4 mx-auto my-auto pl-12 pt-8 w-full h-[26rem]">
                 <Ui an="row-span-2 col-span-5 bg-white">
-                    <div className="box w-full h-full "><h1>Frontend Web Development</h1></div>
+                    <div className="box w-full h-full flex justify-center items-center">
+                        <h1>Frontend Web Development</h1>
+                        <h3>Created responsive and user-friendly web interfaces using React</h3>
+                    </div>
                     <div className="box w-full h-full ">2</div>
                     <div className="box w-full h-full ">3</div>
                     <div className="box w-full h-full ">4</div>
