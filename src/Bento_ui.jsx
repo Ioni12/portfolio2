@@ -13,7 +13,7 @@ export default function Bento_ui()
                     </div>
                     <div className="box w-full h-full ">
                         <h1 className="ml-10 mt-2 text-zinc-900 font-bold">Cybersecurity Studies</h1>
-                        <svg className="mt-4 ml-24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole"><circle cx="12" cy="16" r="1"/><rect x="3" y="10" width="18" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/></svg>
+                        <svg className="mt-4 ml-20" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole"><circle cx="12" cy="16" r="1"/><rect x="3" y="10" width="18" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/></svg>
                     </div>
                     <div className="box w-full h-full ">
                         <h1 className="ml-16 mt-2 text-zinc-900 font-bold">IoT Projects</h1>
