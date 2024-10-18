@@ -9,7 +9,7 @@ export default function Bento_ui()
                 <Ui an="row-span-2 col-span-5 bg-white">
                     <div className="box w-full h-full  px-1">
                         <h1 className="text-[15px] py-4 ml-2 text-zinc-900 font-bold">Frontend Web Development</h1>
-                        <h5 className="text-sm ml-4 -mt-3">React Js, Javascript, Html, Css</h5>
+                        <h5 className="text-sm ml-2 -mt-3">React Js, Javascript, Html, Css</h5>
                     </div>
                     <div className="box w-full h-full ">
                         <h1 className="ml-10 mt-2 text-zinc-900 font-bold">Cybersecurity Studies</h1>
