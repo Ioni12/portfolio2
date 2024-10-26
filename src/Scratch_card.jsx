@@ -128,11 +128,11 @@ const ScratchCard = ({ width = 300, height = 150 }) => {
   return (
     <div className="flex flex-col items-center gap-4">
       <div 
-        className="relative border border-gray-300 rounded-lg overflow-hidden bg-white shadow-md" 
+        className="relative border  rounded-lg overflow-hidden bg-white shadow-md" 
         style={{ width, height }}
       >
         <div 
-          className="absolute inset-0 flex items-center justify-center p-6 text-center text-lg text-gray-700"
+          className="absolute inset-0 flex items-center justify-center p-6 text-center text-lg"
         >
           {isLoading ? (
             <div className="animate-pulse">Loading...</div>
