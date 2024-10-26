@@ -5,7 +5,7 @@ export default function Slide()
 {
     return(
         <>
-            <div className=" px-10 py-10 h-[36rem] relative" style={{ backgroundImage: `url(${robo})`, backgroundSize: 'cover' }}>
+            <div className=" px-10 py-10 h-[40rem] relative" style={{ backgroundImage: `url(${robo})`, backgroundSize: 'cover' }}>
                 <Slides/>
     
                 <div class="controls flex justify-between mt-10 px-20">
