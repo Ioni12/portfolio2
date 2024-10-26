@@ -7,18 +7,20 @@ import Luck from "./Luck"
 import Thank_you from "./Thank_you"
 import Info from "./Info"
 
+
+
 function App() {
 
   return (
     <>
       <Navbar/>
-      <Introduction/>
-      <Bento_ui/>
+      <section id="home"><Introduction /></section>
+      <section id="about"><Bento_ui /></section>
       <Slide/>
       <Comming_soon/>
       <Luck/>
       <Thank_you/>
-      <Info/>
+      <section id="info"><Info /></section>
     </>
   )
 }
