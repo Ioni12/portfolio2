@@ -1,10 +1,11 @@
 import Slides from "./Slides"
+import robo from "./assets/1714580011534.jpeg";
 
 export default function Slide()
 {
     return(
         <>
-            <div className="bg-red-400 px-10 py-10 h-[36rem] relative">
+            <div className=" px-10 py-10 h-[36rem] relative" style={{ backgroundImage: `url(${robo})`, backgroundSize: 'cover' }}>
                 <Slides/>
     
                 <div class="controls flex justify-between mt-10 px-20">
