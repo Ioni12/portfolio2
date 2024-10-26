@@ -14,7 +14,7 @@ export default function Introduction()
     }, [])
     return(
         <>
-            <div className=" mx-auto my-auto px-2 py-10">
+            <div id="home" className=" mx-auto my-auto px-2 py-10">
                 <div className="bg-white py-5">
                     <div className="bg-green-500 rounded-full h-40 w-40 mx-auto my-auto">
                     </div>
