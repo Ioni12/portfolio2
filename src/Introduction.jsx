@@ -9,9 +9,10 @@ gsap.registerPlugin(useGSAP);
 export default function Introduction()
 {
 
-    useEffect(() => {
-        gsap.from(".bg-yellow-300", {y: 500,  width: 20, opacity: 0.2})
-    }, [])
+    useGSAP(() => {
+        gsap.from(".bg-green-500", {y: 500,  width: 20, opacity: 0.2})
+    });
+
     return(
         <>
             <div id="home" className=" mx-auto my-auto px-2 py-10">
