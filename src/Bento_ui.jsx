@@ -1,4 +1,8 @@
 import Ui from "./Ui"
+import robo from "./assets/images.png"
+import javascript from "./assets/logo-javascript.svg"
+import python from"./assets/python-5.svg"
+import react from "./assets/react-2.svg"
 
 export default function Bento_ui()
 {
@@ -26,16 +30,24 @@ export default function Bento_ui()
                 </Ui>
                 <Ui an="row-span-5 col-span-2 bg-white"/>
                 <Ui an="row-span-5 col-span-3 bg-white">
-                    <div className="box w-full h-full">1</div>
+                    <div className="box w-full h-full py-10">
+                        <img src={robo} alt="" />
+                        <h1 className="ml-9">Mentor</h1>
+                    </div>
                     <div className="box">2</div>
                     <div className="box">3</div>
                     <div className="box">4</div>
                 </Ui>
                 <Ui an="row-span-3 col-span-2 bg-white">
-                    <div className="box">1</div>
-                    <div className="box">2</div>
-                    <div className="box">3</div>
-                    <div className="box">4</div>
+                    <div className="box py-8 px-4">
+                        <img src={javascript} alt="" className="mt-3"/>
+                    </div>
+                    <div className="box py-8 px-4">
+                        <img src={python} alt="" className="mt-3"/>
+                    </div>
+                    <div className="box py-8 px-4">
+                        <img src={react} alt="" className="mt-3"/>
+                    </div>
                 </Ui>
                 <Ui an="row-span-2 col-span-2 bg-white"/>
                 <Ui an="row-span-2 col-span-2 bg-white"/>
