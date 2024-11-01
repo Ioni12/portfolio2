@@ -1,6 +1,7 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+
 
 
 gsap.registerPlugin(useGSAP);
@@ -9,13 +10,14 @@ gsap.registerPlugin(useGSAP);
 export default function Introduction()
 {
 
+    const photo = useRef();
     useGSAP(() => {
-        gsap.from(".bg-green-500", {y: 500,  width: 20, opacity: 0.2})
+        gsap.from(photo.current, {y: 500,  width: 20, opacity: 0.2})
     });
 
     return(
         <>
-            <div id="home" className=" mx-auto my-auto px-2 py-10">
+            <div id="home" ref={photo} className=" mx-auto my-auto px-2 py-10">
                 <div className="bg-white py-5">
                     <div className="bg-green-500 rounded-full h-40 w-40 mx-auto my-auto">
                     </div>

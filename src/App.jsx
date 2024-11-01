@@ -6,6 +6,11 @@ import Comming_soon from "./Comming_soon"
 import Luck from "./Luck"
 import Thank_you from "./Thank_you"
 import Info from "./Info"
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+
+
+gsap.registerPlugin(useGSAP);
 
 
 
