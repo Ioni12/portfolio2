@@ -9,23 +9,22 @@ export default function Bento_ui()
     
     return(
         <>
-            <div className="grid grid-cols-8 grid-rows-8 gap-4 mx-auto my-auto pl-12 pt-8 w-full h-[26rem]">
+            <div className="grid grid-cols-8 grid-rows-8 gap-4 mx-auto my-auto pl-12 pt-8 w-full h-[26rem] lg:h-[42rem] lg:ml-20">
                 <Ui an="row-span-2 col-span-5 bg-white">
                     <div className="box w-full h-full  px-1">
-                        <h1 className="text-[15px] py-4 ml-2 text-zinc-900 font-bold">Frontend Web Development</h1>
-                        <h5 className="text-sm ml-2 -mt-3">React Js, Javascript, Html, Css</h5>
+                        <h1 className="text-[15px] py-4 ml-2 text-zinc-900 font-bold lg:px-80 lg:mt-10 lg:ml-10">Frontend Web Development</h1>
+                        <h5 className="text-sm ml-2 -mt-3 lg:px-80 lg:mt-1 lg:ml-12">React Js, Javascript, Html, Css</h5>
                     </div>
                     <div className="box w-full h-full ">
-                        <h1 className="ml-10 mt-2 text-zinc-900 font-bold">Cybersecurity Studies</h1>
-                        <svg className="ml-20" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock-keyhole"><circle cx="12" cy="16" r="1"/><rect x="3" y="10" width="18" height="12" rx="2"/><path d="M7 10V7a5 5 0 0 1 10 0v3"/></svg>
+                        <h1 className="ml-10 mt-2 text-zinc-900 font-bold lg:px-80 lg:mt-10 lg:ml-10">Cybersecurity Studies</h1>
                     </div>
                     <div className="box w-full h-full ">
-                        <h1 className="ml-16 mt-2 text-zinc-900 font-bold">IoT Projects</h1>
-                        <h5 className="text-[12px] ml-2 mt-1">Developed projects using Arduino and Raspberry Pi</h5>
+                        <h1 className="ml-16 mt-2 text-zinc-900 font-bold lg:px-80 lg:mt-10 lg:ml-10">IoT Projects</h1>
+                        <h5 className="text-[12px] ml-2 mt-1 lg:px-60 lg:mt-1 lg:ml-12">Developed projects using Arduino and Raspberry Pi</h5>
                     </div>
                     <div className="box w-full h-full ">
-                        <h1 className="ml-10 mt-2 text-zinc-900 font-bold">Competition Mentor</h1>
-                        <h5 className="text-[12px] ml-4">Volunteered as a mentor for fellow students in a robotics competition</h5>
+                        <h1 className="ml-10 mt-2 text-zinc-900 font-bold lg:px-80 lg:mt-10 lg:ml-10">Competition Mentor</h1>
+                        <h5 className="text-[12px] ml-4 lg:px-60 lg:mt-1 lg:ml-10">Volunteered as a mentor for fellow students in a robotics competition</h5>
                     </div>
                 </Ui>
                 <Ui an="row-span-5 col-span-2 bg-white"/>
@@ -39,14 +38,14 @@ export default function Bento_ui()
                     <div className="box">4</div>
                 </Ui>
                 <Ui an="row-span-3 col-span-2 bg-white">
-                    <div className="box py-8 px-4">
-                        <img src={javascript} alt="" className="mt-3"/>
+                    <div className="box py-8 px-4 lg:px-20 lg:py-36 lg:-mt-36">
+                        <img src={javascript} alt="" className="mt-3 lg:w-48"/>
                     </div>
-                    <div className="box py-8 px-4">
-                        <img src={python} alt="" className="mt-3"/>
+                    <div className="box py-8 px-4 lg:px-20 lg:py-36 lg:-mt-36">
+                        <img src={python} alt="" className="mt-3 lg:w-48"/>
                     </div>
-                    <div className="box py-8 px-4">
-                        <img src={react} alt="" className="mt-3"/>
+                    <div className="box py-8 px-4 lg:px-20 lg:py-36 lg:-mt-36">
+                        <img src={react} alt="" className="mt-3 lg:w-48"/>
                     </div>
                 </Ui>
                 <Ui an="row-span-2 col-span-2 bg-white"/>

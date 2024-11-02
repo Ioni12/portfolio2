@@ -24,7 +24,7 @@ export default function Ui({an, children})
           gsap.fromTo(
             boxes[count],
             { xPercent: 0, zIndex: 0 },
-            { duration: 1.2, xPercent: -100, zIndex: -10 }
+            { duration: 2.2, xPercent: -100, zIndex: -10 }
           );
           count = (count + 1) % boxes.length; 
   
@@ -32,12 +32,12 @@ export default function Ui({an, children})
           gsap.fromTo(
             boxes[count],
             { xPercent: 100, zIndex: 1 },
-            { duration: 1.2, xPercent: 0, zIndex: 0 }
+            { duration: 2.2, xPercent: 0, zIndex: 0 }
           );
         }
   
         
-        const interval = setInterval(next, 2000);
+        const interval = setInterval(next, 3000);
   
         
         return () => clearInterval(interval);

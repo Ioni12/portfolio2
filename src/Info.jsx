@@ -7,8 +7,8 @@ export default function Info()
     return(
         <>
             <div className=" h-40">
-                <div className="flex">
-                    <div className=" mt-5 ml-5">
+                <div className="flex lg:justify-center lg:align-middle">
+                    <div className=" mt-5 ml-5 ">
                         <h2 className="flex p-4">
                             <img src={gmail} alt="" className="w-4 h-4 mt-1 mr-1"/>email: enkeljongjeta@gmail.com
                         </h2>
