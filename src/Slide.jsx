@@ -1,5 +1,5 @@
 import Slides from "./Slides"
-import robo from "./assets/1714580011534.jpeg";
+import robo from "./assets/17145800115341.jpeg";
 
 export default function Slide()
 {
